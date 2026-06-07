@@ -135,5 +135,3 @@ Canva phase (picked banner only):
 - Generate banners for restricted categories (weapons, adult, illegal, political).
 
 ---
-
-*Part of the [Sowingo Marketing Skills](../README.md) suite — Step 4.*
