@@ -111,5 +111,3 @@ Variation 5:
 - Use more than 3 emojis in one line.
 
 ---
-
-*Part of the [Sowingo Marketing Skills](../README.md) suite — Step 3.*
