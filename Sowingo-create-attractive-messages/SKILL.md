@@ -1,5 +1,5 @@
 ---
-name: sow-mkt-step-3-generate-messages
+name: Sowingo-generate-attractive-messages
 
 description: "Creates short, catchy, and attractive marketing messages for new product launches, new arrivals, trending products,
 and promotions to drive excitement and increase conversions. Use this skill whenever the user says \"write attractive message\",
