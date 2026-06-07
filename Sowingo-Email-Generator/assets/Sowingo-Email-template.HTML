@@ -1,0 +1,127 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional //EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--
+  Sowingo marketing email template — mirrors the structure & design of Sowingo's
+  real HubSpot marketing emails. Fill the {{placeholders}}. Body copy, headline,
+  CTA labels, and footer microcopy must be in the language chosen in Step 0.
+  Replace {{dir}} with "ltr" (or "rtl" for Arabic/Hebrew/Urdu).
+-->
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:v="urn:schemas-microsoft-com:vml" lang="en-CA">
+<head>
+  <title>{{subject}}</title>
+  <meta name="x-apple-disable-message-reformatting">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--[if gte mso 9]>
+  <xml>
+    <o:OfficeDocumentSettings>
+      <o:AllowPNG/>
+      <o:PixelsPerInch>96</o:PixelsPerInch>
+    </o:OfficeDocumentSettings>
+  </xml>
+  <![endif]-->
+</head>
+<body dir="{{dir}}" style="margin:0; padding:0; background-color:#f9fafb;">
+ 
+  <!-- Hidden preheader -->
+  <div style="display:none; font-size:1px; color:#f9fafb; line-height:1px; max-height:0px; max-width:0px; opacity:0; overflow:hidden;">
+    {{preheader}}&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;
+  </div>
+ 
+  <table role="presentation" width="100%" border="0" cellpadding="0" cellspacing="0" style="background-color:#f9fafb;">
+    <tr>
+      <td align="center" style="padding:16px;">
+ 
+        <!-- 600px content card -->
+        <table role="presentation" width="600" border="0" cellpadding="0" cellspacing="0" style="width:600px; max-width:600px; background-color:#ffffff;">
+ 
+          <!-- Header -->
+          <tr>
+            <td align="center" style="padding:24px; background-color:#ffffff;">
+              <img src="https://hs-5545807.f.hubspotemail.net/hub/5545807/hubfs/Sowingo-colour-logo-canada.png" alt="Sowingo" width="180" style="display:block; border:0; max-height:40px; width:auto;">
+            </td>
+          </tr>
+ 
+          <!-- Hero -->
+          <tr>
+            <td align="center" style="padding:0;">
+              <img src="{{hero_image_url}}" alt="{{hero_alt}}" width="600" style="display:block; border:0; width:100%; max-width:600px; height:auto;">
+            </td>
+          </tr>
+ 
+          <!-- Headline -->
+          <tr>
+            <td align="{{align}}" style="padding:28px 28px 8px 28px;">
+              <h1 style="margin:0; font-family:Arial, Helvetica, sans-serif; font-size:36px; line-height:120%; font-weight:bold; color:#232f39;">{{headline}}</h1>
+            </td>
+          </tr>
+ 
+          <!-- Marketing copy (2-3 short paragraphs) -->
+          <tr>
+            <td align="{{align}}" style="padding:8px 28px;">
+              <p style="margin:0 0 16px 0; font-family:Arial, Helvetica, sans-serif; font-size:16px; line-height:150%; color:#232f39;">{{paragraph_1}}</p>
+              <p style="margin:0 0 16px 0; font-family:Arial, Helvetica, sans-serif; font-size:16px; line-height:150%; color:#232f39;">{{paragraph_2}}</p>
+            </td>
+          </tr>
+ 
+          <!-- Divider -->
+          <tr><td style="padding:8px 28px;"><hr style="border:0; border-top:1px solid #cad2d8; margin:0;"></td></tr>
+ 
+          <!-- Product showcase -->
+          <tr>
+            <td align="center" style="padding:16px 28px;">
+              <img src="{{product_image_url}}" alt="{{product_name}}" width="300" style="display:block; border:0; width:300px; max-width:100%; height:auto; margin:0 auto;">
+              <p style="margin:16px 0 4px 0; font-family:Arial, Helvetica, sans-serif; font-size:22px; line-height:130%; font-weight:bold; color:#232f39;">{{product_name}}</p>
+              <p style="margin:0 0 8px 0; font-family:Arial, Helvetica, sans-serif; font-size:22px; line-height:150%; color:#232f39;">
+                <span style="color:#da741b;">{{price}}</span>
+                <span style="text-decoration:line-through; color:#4e6374; font-weight:normal; font-size:16px;">{{old_price}}</span>
+              </p>
+              <p style="margin:0 0 16px 0; font-family:Arial, Helvetica, sans-serif; font-size:16px; line-height:150%; color:#232f39;">{{benefit_line}}</p>
+            </td>
+          </tr>
+ 
+          <!-- Primary CTA (bulletproof, blue, 6px radius) -->
+          <tr>
+            <td align="center" style="padding:8px 28px 24px 28px;">
+              <table role="presentation" border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                  <td align="center" valign="middle" bgcolor="#398de3" style="font-family:Arial, Helvetica, sans-serif; font-size:16px; color:#ffffff; word-break:break-word; border-radius:6px; cursor:auto; background-color:#398de3; mso-padding-alt:12px 18px;">
+                    <a href="{{primary_cta_url}}" target="_blank" style="display:inline-block; padding:12px 18px; color:#ffffff; font-family:Arial, Helvetica, sans-serif; font-size:16px; font-weight:bold; text-decoration:none; border-radius:6px;">{{primary_cta_label}}</a>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+ 
+          <!-- Secondary CTA (teal text link) -->
+          <tr>
+            <td align="center" style="padding:0 28px 28px 28px;">
+              <a href="{{secondary_cta_url}}" target="_blank" style="font-family:Arial, Helvetica, sans-serif; font-size:16px; font-weight:bold; color:#00a4bd; text-decoration:underline;">{{secondary_cta_label}}</a>
+            </td>
+          </tr>
+ 
+          <!-- Footer -->
+          <tr>
+            <td align="center" style="padding:24px 28px; background-color:#f9fafb;">
+              <p style="margin:0 0 12px 0;">
+                <a href="{{facebook_url}}" target="_blank" style="text-decoration:none;"><img src="https://www.hubspot.com/hubfs/HubSpot_Tools/Email_App/template_images/modules/Follow+Me+-+Email/facebook_circle_color.png" alt="Facebook" width="28" height="28" style="border:0; display:inline-block; margin:0 4px;"></a>
+                <a href="{{linkedin_url}}" target="_blank" style="text-decoration:none;"><img src="https://www.hubspot.com/hubfs/HubSpot_Tools/Email_App/template_images/modules/Follow+Me+-+Email/linkedin_circle_color.png" alt="LinkedIn" width="28" height="28" style="border:0; display:inline-block; margin:0 4px;"></a>
+                <a href="{{instagram_url}}" target="_blank" style="text-decoration:none;"><img src="https://www.hubspot.com/hubfs/HubSpot_Tools/Email_App/template_images/modules/Follow+Me+-+Email/instagram_circle_color.png" alt="Instagram" width="28" height="28" style="border:0; display:inline-block; margin:0 4px;"></a>
+              </p>
+              <p style="margin:0 0 8px 0; font-family:Arial, Helvetica, sans-serif; font-size:13px; line-height:150%; color:#4e6374;">Sowingo &bull; The smart way to manage your practice</p>
+              <p style="margin:0; font-family:Arial, Helvetica, sans-serif; font-size:13px; line-height:150%; color:#4e6374;">
+                <a href="{{unsubscribe_url}}" data-unsubscribe="true" style="color:#398de3; text-decoration:underline;">Unsubscribe</a>
+                &nbsp;&bull;&nbsp; &copy; {{year}} Sowingo. All rights reserved.
+              </p>
+            </td>
+          </tr>
+ 
+        </table>
+        <!-- /600px card -->
+ 
+      </td>
+    </tr>
+  </table>
+</body>
+</html>
+    
